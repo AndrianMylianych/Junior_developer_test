@@ -1,0 +1,358 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.padding-deleter{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.intro {
+    background-image: url("./JD_test_images/intro-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(68, 106, 130, 0.85);
+    height: 1280px;
+}
+
+.intro-description{
+    align-self: flex-end;
+    margin-bottom: 133px;
+}
+
+.intro-large-text{
+    width: 540px;
+    height: 165px;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.intro-small-text{
+    width: 540px;
+    height: 120px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.intro-button{
+    width: 200px;
+    height: 50px;
+    background: #FDB913;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-button-text{
+    width: 140px;
+    height: 14px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.man-photo{
+    align-self: flex-end;
+}
+/* second container -------------------------------------*/
+
+.second-container{
+    height: 460px;
+    background: #F8F8F8;
+    align-items: center;
+}
+
+.second-container-text-header{
+    width: 540px;
+    height: 90px;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.second-container-text-description{
+    width: 540px;
+    height: 200px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+/* third container header ===================================== */
+
+.third-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-header{
+    width: 540px;
+    height: 35px;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.video-container{
+    margin-top: 45px;
+}
+
+.services-container{
+    width: 1110px;
+    height: 235px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    display: flex;
+
+}
+
+.services{
+    width: 350px;
+    height: 235px;
+    margin: 30px;
+}
+
+.services-icon{
+    height: 65px;
+    width: 65px;
+    animation: 3s slidein;
+}
+
+.services-header{
+    width: 123px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.A-header{
+    width: 122px;
+}
+
+.services-C{
+    margin-right: 0;
+}
+
+.services-text{
+    width: 350px;
+    height: 100px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+/*================FORTH CONTAINER===================================*/
+
+.forth-container{
+    height: 640px;
+    background: #FDB913;
+    display: flex;
+
+}
+
+.forth-container-image{
+    padding: 0;
+}
+
+.forth-container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+}
+
+.forth-container-header{
+    width: 445px;
+    height: 135px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.forth-container-description{
+    width: 445px;
+    height: 250px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+
+/* ======FIFTH CONTAINER=======================*/
+
+.multi-logos{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    width: 1108px;
+    display: flex;
+}
+
+.scroll{
+    margin-top: 60px;
+    display: flex;
+}
+
+.scroll-img{
+    align-self: center;
+    margin-left: 65px;
+}
+
+.scroll-left{
+    transform: rotate(180deg);
+    margin-right: 65px;
+    margin-left: 0;
+}
+
+.scroll-txt{
+    width: 350px;
+    height: 223px;
+}
+
+.scroll-message{
+    width: 350px;
+    height: 120px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+}
+
+.scroll-name{
+    width: 350px;
+    height: 78px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.logos-margin{
+    margin-right: 72px;
+}
+
+/*  SIXTH CONTAINER */
+
+.sixth-container{
+    height: 914px;
+    background: #446A82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sixth-container-text{
+    width: 730px;
+    height: 90px;
+    margin-top: 60px;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.label{
+    width: 113px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.email-label{
+    margin-top: 40px;
+}
+
+.wword-label{
+    margin-top: 40px;
+    width: 196px;
+}
+
+.input{
+    width: 540px;
+    height: 57px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #446A82;
+}
+
+.wword-input{
+    height: 114px;
+}
+
+.check-and-submit{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 37px;
+    margin-right: 20px;
+}
+
+.label-check{
+    width: 208px;
+    height: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 43px;
+    margin-right: 159px;
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 30px;
+    width: 121px;
+    height: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.finish-logo{
+    width: 427px;
+    height: 72px;
+    margin-top: 71px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.finish-image{
+    width: 56px;
+    height: 72px;
+
+}
+
+.finish-logo-text{
+    width: 266px;
+    height: 25px;
+    margin-left: 35px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    align-self: center;
+}
